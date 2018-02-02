@@ -1,0 +1,64 @@
+
+#historyChart{
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+#barChart svg{
+							
+				width:245px;
+				height:600px;
+				margin: auto;
+				
+			}
+#barChart svg > rect{
+				width:200px;
+				height:600px;
+				margin: auto;
+				
+			}
+.thirdSwithcer{
+				margin-left: 2px;
+				float:left;
+			}
+.thirdSwithcer:hover{
+	cursor: pointer;
+	background-color: rgb(255,255,255);
+}
+.thirdContainer00{
+				position: absolute;
+				z-index: 255;
+				background-color: rgba(24,21,202,0.6);
+				top:115px;
+				right: 266px;	
+				height: 600px;
+				width:0px;
+			}			
+			.thirdContainer11{
+				position: absolute;
+				z-index: 255;
+				background-color: rgba(24,21,202,0.6);
+				top:115px;
+				right: 510px;
+				height: 600px;
+				width:250px;
+				line-height: 40px;
+				color:white;
+				text-align: center;
+				vertical-align: middle;
+				overflow: hidden;
+			}
+			.thirdContainer011{
+				position: absolute;
+				z-index: 255;
+				background-color: rgba(xia);
+				top:115px;
+				right: 270px;
+				height: 600px;
+				width:250px;
+				line-height: 40px;
+				color:white;
+				text-align: center;
+				vertical-align: middle;
+				overflow: hidden;
+			}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>统计图表</title>
+		<link rel="stylesheet" href="http://localhost/jsapi/3.9/js/dojo/dijit/themes/tundra/tundra.css" />
+		<link rel="stylesheet" href="http://localhost/jsapi/3.9/js/esri/css/esri.css" />
+		<link rel="stylesheet" href="css/layout.css" />
+		<link rel="stylesheet" href="css/thirdContainer.css" />
+		<script>
+	      var dojoConfig = {
+	      	async:true,
+	      	parseOnLoad:true,
+	        serverIP:window.location.host,
+	        packages: [{
+	          "name": "extras",
+	          "location": location.pathname.replace(/\/[^/]+$/, '') + "extras"
+	        }]
+	        
+	      };	      
+	    </script>
+		<script src="http://localhost/jsapi/3.9/"></script>		
+		<script src="js/map.js"></script>
+		
+	</head>
+	<body>
+		<div class="banner">
+			<span>统计展示模板</span>
+		</div>
+		<div id="map">
+			<div class="floatContainerOff" id="container">
+				<div id="menuContent">
+				
+				<span>统计指标</span><br /><hr />
+				<div id="indicators" style="text-align: center; vertical-align: middle;">					
+					<ul id="races" class="listStyle">							
+					</ul>
+				</div>
+				</div>
+			</div>
+			<div class="subContainer00" id="subContainer">
+				<div id="stastics">
+					<img class="thirdSwithcer" id="thirdSwitcher" src="images/left.png"/>
+				<span>统计信息</span><br /><hr />
+				<div id="pieChart">			
+				</div>
+				<hr />
+				<table data-dojo-type="dojox/grid/DataGrid" jsid="grid" id="grid" canSort='false' selectionMode='single' style='border:1px #a8a8a8 solid;width:245px;height:300px;overflow: auto;'>
+			      <thead>
+			        <tr>
+			          <!--<th field="0" >
+			            OBJECTID
+			          </th>-->
+			      </thead>
+			    </table>
+				</div>
+			</div>
+			<div id="thirdContainer" class="thirdContainer00">
+				<div id="historyChart">
+					<span>历史数据查看</span><br /><hr />
+					<div id="barChart" style="width: 250px;">			
+					</div>
+					<div id="historyTool" style="width: 250px;"></div>
+					<div id="thirdDetial"></div>
+				</div>
+				
+			</div>
+			
+			<img class="switcherOff" id="switcher" src="images/left_small.png" />
+			<img class="sub_switcher00" id="subSwitcher" src="images/left_big.png"  />			
+		</div>
+	</body>
+</html>

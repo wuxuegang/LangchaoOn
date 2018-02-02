@@ -1,0 +1,46 @@
+[
+  {
+    "name":"indicators",
+    "id":"root"
+    
+  },  
+    {
+      "name":"人口数",
+      "id":"display",
+      "parent":"root",
+      "level":1
+    },
+        {
+          "name":" 黑种人",
+          "id":"dynamic",
+          "parent":"display",
+          "href":"imageService.html",
+          "js":"js/imageService.js",
+          "jsAMD":"js/imageServiceAMD.js",
+          "img":"img/ImageServiceN.png",
+          "level":2
+          
+        },
+        {
+          "name":" 白种人",
+          "id":"tiled",
+          "parent":"display",
+          "href":"tiledService.html",
+          "js":"js/tiledService.js",
+          "jsAMD":"js/tiledServiceAMD.js",
+          "img":"img/tiledService.png",
+          "level":2
+        },  
+        {
+          "name":" 亚洲人",
+          "id":"tiled",
+          "parent":"display",
+          "href":"swipe.html",
+          "js":"",
+          "jsAMD":"js/swipe.js",
+          "img":"img/swipe.png",
+          "level":2
+        }
+        
+        
+]
